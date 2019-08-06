@@ -1,0 +1,44 @@
+
+@media only screen and (max-width: 300px) {
+    body {
+        background-color: red;}
+
+    #small {font-size: 15px;}
+
+}
+@media only screen and (min-width:301px)and (max-width: 767px) {
+    body {
+        background-color: green;
+    }
+    #small {width: 66%;
+    float: left;}
+    #medium
+    {font-size: 20px;
+        width: 33%;
+        float: left;
+    }
+    #large {
+        width: 100%;
+
+    }
+
+}
+@media only screen and (min-width:769px) {
+    body {
+        background-color: blue;
+    }
+
+
+
+    #small {width:33%;
+        float:left;
+    }
+    #medium {width:33%;
+        float:left;
+    }
+    #large {font-size: 24px;
+    width:33%;
+    float:left;}
+}
+
+
